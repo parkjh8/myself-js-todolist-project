@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+
+}
+
+.container{
+    background-color: pink;
+    height: 100vh;
+}
+
+.meun-area{
+    display: flex;
+}
+
+.meun-area div{
+    padding: 10px;
+    background-color: yellow;
+    border:1px solid black;
+    cursor: pointer;
+}
+#text-area{
+    display: flex;
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+}
+
+.text{
+    text-decoration:line-through;
+}
+/* #underline{
+    position: absolute;
+    width: 70px;
+    background-color: pink;
+    left:0px;
+    bottom:0px;
+    height:3px;
+} */
